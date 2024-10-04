@@ -11,7 +11,11 @@ Each purchase is represented as a `Map<String, Integer>` where the keys represen
 - **bill_value:** Money used by the customer ($5, $10 or $20)
 - **position_in_line:** The position of the customer in the queue
 - **requested_lemonades:** The number of lemonades requested by the customer.
+
 # Solution
+- The solution of the case is on `src/case_sumup/ProcessPurchases.java`
+- Test and validate different scenarios is on `src/test/ProcessPurchasesTest.java`
+
 ### Change Calculation:
 The program calculates whether the customer should receive change after purchasing lemonade, based on a fixed lemonade price ($5).
 
